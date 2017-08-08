@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-
 <html>
  <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>Work/Life Balance</title>
-  <script type="text/javascript" src="table.js"></script>
   <link rel="stylesheet" href="style.css">
   
-     <!--NAV BAR-->
+   <!--NAV BAR-->
    <ul class="barul">
      <li class="barli"><a href="http://web.engr.oregonstate.edu/~emersoel/index.html" class="navHeight navHover" >Home</a></li>
      <li class="barli"><a href= "http://web.engr.oregonstate.edu/~emersoel/compcreate.html" class="navHeight navHover">Create Company Account</a></li>
@@ -17,26 +15,32 @@
 	 <li class="barli"><a href="http://web.engr.oregonstate.edu/~emersoel/addcontacts.html" class="navHeight navHover">Add Contact Info</a></li>
      <li style="float:right"><a href="http://web.engr.oregonstate.edu/~emersoel/about.html" class="navHeight navHover">About</a></li>
    </ul>
-  
-  </head>
-
-
-<body>
-
- <table id="showData">
-  <br><br>
-  <tr>
-   <th>First Name</th>
-   <th>Last Name</th>
-   <th>Company</th>
-   <th>Department</th>
-   <th>Position</th>
-   <th>Email</th>
-   <th>Phone</th>
-   <th>Availability</th>
-  </tr>
- </table>
- <br><br>
-
+   </head>
+   
+ <body>
+	<h1>Add Contact Info</h2>
+	<form action="" method="post">
+		<fieldset>
+			<label> Company ID:
+				<input type="text" name="coID" size="30" maxlength="100">
+			</label>
+			<label> First Name:
+				<input type="text" name="fname" size="30" maxlength="100">
+			</label>
+			<br>
+			<br>
+			<label> Last Name:
+				<input type="text" name="lname" size="30" maxlength="100">
+				<div> The company's unique website and email domain </div>
+			</label>
+			<br>
+			<label> Email Address:
+				<input type="text" name="email" size="30" maxlength="100">
+			</label>
+			<br>
+			<label> Phone Number:
+				<input type="password" name="phone" size="30" maxlength="100">
+			</label>
+	</form>
  </body>
 </html>
